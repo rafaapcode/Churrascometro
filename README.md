@@ -1,4 +1,4 @@
-# Churrascometro
+# Churrascômetro
 ## Tecnologia utilizadas:
 #### HTML5, CSS3 e JavaScript.
 
