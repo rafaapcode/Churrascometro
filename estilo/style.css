@@ -61,3 +61,21 @@ button:hover{
     cursor: pointer;
     font-style: oblique;
 }
+
+#resultado{
+    max-width: 300px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+    margin-top: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    display: none;
+}
+
+#resultado:hover{
+
+        font-weight: bold;
+}

@@ -6,13 +6,14 @@
 
 
 
+
 let adultos = document.getElementById("adultos");
 
 let criancas = document.getElementById("criancas");
 
 let duracao = document.getElementById("duracao");
 
-let resultado = document.getElementById("resultado");
+let result = document.getElementById("resultado");
 
 function calcular(){
     
@@ -26,7 +27,11 @@ function calcular(){
     let qtdcerveja = Cerveja(d) * a;
     let Bebidas = bebidas(d) * a + (bebidas(d) / 2 * c);
 
-    console.log(quantidadeC);
+   result.innerHTML = ` <p>${quantidadeC / 1000} Kg de Carne.</p>`;
+   result.innerHTML += ` <p>${Math.ceil(qtdcerveja / 355)} Latinhas (355 ml) de Cerveja.</p>`;
+   result.innerHTML += ` <p>${Math.ceil(Bebidas / 2000)} Garrafas de refrigerante / água / sucos (2L).</p>`;
+
+   result.style.display = "block";
 }
 
 function carne(duracao){
@@ -50,11 +55,11 @@ function Cerveja(duracao){
 }
 
 function bebidas(duracao){
-    let b = 1000;
+    let bear = 1000;
 
     if(duracao >= 6){
-        b = 1500;
+        bear = 1500;
     }
-    return b;
+    return bear;
 
 }
