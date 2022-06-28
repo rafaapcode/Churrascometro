@@ -1,6 +1,11 @@
 # Churrascômetro
+
+- Praticar JS usando essa página simples, que faz a conta de quanto você deve comprar pra ter o churras ideal !!
+
 ## Tecnologia utilizadas:
 #### HTML5, CSS3 e JavaScript.
+
+
 
 ![Churras](https://user-images.githubusercontent.com/83471941/124039956-5067a600-d9da-11eb-85fb-a4a1dee2675f.png)
 
